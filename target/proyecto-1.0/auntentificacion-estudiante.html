@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos/autentificacion.css"/>
+        <title>Iniciar sesion</title>
+    </head>
+    <body>
+        <form action="validar" class="formulario" id="formulario" method="post">
+            <div>
+                <h1>Estudiantes</h1>
+                <img src="img/Usac - logo.png" alt="img/cunori - logo.png">
+            </div>
+            <div>
+                <label for="usuario">usuario</label>
+                <input type="text" name="usuario" id="usuario" placeholder="usuario">
+            </div>
+            <div>
+                <label for="contrasenia">contraseña</label>
+                <input type="text" name="contrasenia" id="contrasenia" placeholder="contraseña">
+            </div>
+            <div>
+                <input type="submit" value="acceder">
+            </div>
+            <div>
+                <button type="button" class="profesores-bt" id="profesores" onclick="location.href='auntentificacion-profesores.html'">Profesores</button>
+            </div>
+        </form>
+    </body>
+    <script src="js/validaciones.js"></script>
+</html>

@@ -1,0 +1,8 @@
+com\guatesalva\interfaces\usuarioDAO.class
+com\gautesalva\conexiones\conexion.class
+com\guatesalva\modelos\usuarioEstudiante.class
+com\guatesalva\proyecto\JakartaRestConfiguration.class
+com\guatesalva\controllers\usuarioEstudianteImplements.class
+com\guatesalva\proyecto\resources\JakartaEE10Resource.class
+com\gautesalva\conexiones\Configurations.class
+com\guatesalva\autentificaciones\autentificar.class
