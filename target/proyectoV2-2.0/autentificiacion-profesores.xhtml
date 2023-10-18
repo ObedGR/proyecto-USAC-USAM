@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html" xml:lang="es" lang="es">
+    <h:head>
+        <title>Iniciar sesion</title>
+    </h:head>
+    <h:body>
+        <h:form>
+            <div>
+                <h1>Profesores</h1>
+                <img src="img/Usac - logo.png" alt="img/cunori - logo.png" />
+            </div>
+            <div>
+                <h:outputLabel for="usuario">usuario</h:outputLabel>
+                <h:inputText name="usuario" id="usuario" value="#{estudianteBean.usuario}" placeholder="usuario" required="true" />
+            </div>
+            <div>
+                <h:outputLabel for="contrasenia">contraseña</h:outputLabel>
+                <h:inputText name="contrasenia" id="contrasenia" value="#{estudianteBean.password}" placeholder="contraseña" required="true" />
+            </div>
+            <div>
+                <!-- crear y cambias los metodos a un bean de profesaor, solo es una plantilla de ejemplo -->
+                <h:commandButton value="acceder" action="#{estudianteBean.verificarUsuario()}" />
+            </div>
+            <div>
+                <button type="button" class="profesores-bt" id="profesores" onclick="location.href = 'autentificiacion-estudiantes.xhtml'">Profesores</button>
+            </div>
+        </h:form>
+    </h:body>
+</html>
