@@ -4,8 +4,6 @@
  */
 package com.guatesalva.controllers;
 
-import com.guatesalva.modelos.usuarioEstudiante;
-import java.util.List;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeEach;
